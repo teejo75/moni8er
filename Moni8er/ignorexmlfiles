@@ -1,0 +1,4 @@
+# Add any xml files you want Moni8er to ignore to this file. One entry per line.
+# Specify only filenames with .xml extensions. Case does not matter.
+view.xml
+movieinfo.xml

@@ -1,0 +1,12 @@
+﻿Build Notes
+===========
+
+View your package manager settings Tools->NuGet Package Manager->Package Manager Settings.
+Check "Allow NuGet to download missing packages"
+Check "Automatically check for missing packages during build in Visual Studio"
+
+When you build the solution, the System.Data.SQLite package should be installed.
+
+If not, you will need to install them in to Moni8er.Database and Moni8er.
+
+Tools->NuGet Package Manger->Manage NuGet Packages for Solution...

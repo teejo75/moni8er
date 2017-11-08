@@ -1,0 +1,35 @@
+﻿20 May 2016
+ - Move Update library in to project
+ - Remove Settings library and convert to built-in settings storage.
+ - Add new item to system menu to allow resetting to defaults.
+15 May 2016
+ - Use enter key as default on new 'Add' dialog.
+28 April 2016:
+ - Fix for UNC path handling
+ - New 'Add' dialog for people who like to type paths rather than always browse for them (Easier for UNC paths).
+24 April 2015:
+ - Added facility to ignore additional XML files. Add entries to the file "ignorexmlfiles".
+ - Minor fixes to the common update checker - it will no longer throw an exception if it receives bad data due to having a router that 
+   returns an error page instead of a timeout if your connection is offline.
+21 April 2015:
+ - Major restructure of Moni8er code in order to support an upcoming console version that can be called from scripts.
+ - GUI no longer goes to tray during processing.
+ - Added a status bar with progress and text notifications.
+ - The folder check on startup is now less stupid. If a missing folder is now available again (for example, because of an offline drive), it will no longer 
+   leave the entry coloured red.
+ - Added ability to abort processing if errors are thrown.
+9 February 2015:
+ - Added a check for duplicate folders when adding new folders to the list.
+3 August 2014:
+ - Added a check on startup to verify that jukebox folders exist.
+30 April 2014:
+ - Added more error checking for invalid XML files.
+19 March 2014:
+ - MAJOR UPDATE: Moni8er no longer creates the database from scratch every run. It now updates the database for changed / removed movies.
+ - Significant speed improvement particularly for local drives.
+17 March 2014:
+ - Corrected handling of mjbignore.xml, .mjbignore and view.xml files. - Thanks again, Doctor Bill.
+18 February 2014:
+ - Fixed silly logic error - Thanks Doctor Bill.
+22 January 2014:
+ - Added update notifier
